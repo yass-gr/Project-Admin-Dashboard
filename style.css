@@ -4,14 +4,13 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 body {
   height: 100vh;
   display: grid;
-  grid-template-columns: 22% 80%;
+  grid-template-columns: 22% 78%;
   grid-template-rows: 15% 85%;
 }
 
@@ -143,6 +142,7 @@ header {
   justify-content: flex-end;
   padding: 10px;
   margin-right: 15px;
+  padding-right: 10px;
 }
 
 .btns button:hover {
@@ -161,7 +161,7 @@ main {
   display: grid;
   gap: 2rem;
   grid-template-columns: 70% 25%;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: 0.7fr 1fr;
 }
 
 .your-projectss {
@@ -176,6 +176,7 @@ main {
 }
 
 .trending {
+  margin-top: 10px;
   grid-area: 2 / 2 / 3 / 3;
 }
 .your-projectss h4 {
@@ -183,6 +184,9 @@ main {
 }
 .your-projectss p {
   opacity: 0.7;
+}
+.your-projectss h5 {
+  margin-bottom: 5px;
 }
 .your-projectss .card-prjct {
   background-color: white;
@@ -225,7 +229,7 @@ main {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 25px;
   border-radius: 7px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.059);
 }
@@ -249,6 +253,7 @@ main {
   padding: 20px;
   border-radius: 7px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.059);
+  padding-block: 25px;
 }
 
 .trending .trend-item {
