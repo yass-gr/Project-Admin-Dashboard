@@ -160,7 +160,7 @@ main {
   padding: 1.5rem;
   display: grid;
   gap: 2rem;
-  grid-template-columns: 70% 25%;
+  grid-template-columns: 72% 24%;
   grid-template-rows: 0.7fr 1fr;
 }
 
